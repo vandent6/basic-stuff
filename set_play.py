@@ -1,0 +1,2 @@
+someSet = set()
+print(someSet)
