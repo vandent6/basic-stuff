@@ -1,0 +1,17 @@
+Inside "scrape_world_report.py", line 42
+	replace "scrape_results.json" with name of file desire
+
+Requirements:
+pip install requests
+pip install beautifulsoup4
+pip install retry
+
+Self Running
+	python scrape_world_report.ps
+
+
+**Note: my_results.json was what I got when I ran the above command
+
+Two major problems can occur (known):
+Country without any codes (gets skipped and added to skip list)
+Code without all columns filled in (gets skipped and added to skip list)
